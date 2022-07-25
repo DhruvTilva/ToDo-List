@@ -5,8 +5,8 @@
 }
 body{
 	height: 100vh;
-	background: #9e03ff;
-	background: linear-gradient(139deg,#9a03ffcb 0%,#2903ffb6 90%);
+	background: #787779;
+	background: linear-gradient(139deg,#787779 0%,#2903ffb6 90%);
 }
 .container{
 	position: relative;
@@ -21,9 +21,9 @@ body{
 }
 .addTask > input[type="text"]{
 	width: 90%;
-	color: #333;
+	color: #fff;
 	border:none;
-	border-bottom: 2px solid #666;
+	border-bottom: 2px solid rgb(181, 171, 171);
 	background: none;
 	padding: 10px;
 	font-size: 22px;
@@ -90,8 +90,22 @@ li button{
 	cursor: pointer;
 }
 .credit{
-	font-size: 12px;
+	font-size: 18px;
+	font-style: monospace;
 	text-transform: uppercase;
 	text-align: center;
 	color: rgb(255, 255, 255);
+}
+.box a{
+    display: block;
+    font-size: 1.4rem;
+    padding:1rem 0;
+    color:var(--light-color);
+}
+.box a i{
+    padding-right: .5rem;
+    color:var(--black);
+}
+.box a:hover i{
+    padding-right: 2rem;
 }
