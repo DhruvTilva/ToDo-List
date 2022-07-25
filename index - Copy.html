@@ -3,29 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>To-Do list Created By Dhruv</title>
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
 	<div class="container">
 		<div class="addTask">
-			<input type="text" placeholder="Add a Task">
+			<i class="fas fa-envelope"></i><input type="text" placeholder="">
 			<button>Add</button>
 		</div>
 
 		<ol class="notCompleted">
-			<h3>Remaining Tasks</h3>
+			<h3><i class="fas fa-headset"></i> Remaining Tasks <i class="fas fa-headset"></i></h3>
 		</ol>
 
 		<ol class="Completed">
-			<h3>Completed Tasks</h3>
+			<h3> <i class="fas fa-star"></i> Completed Tasks <i class="fas fa-star"></i></h3>
 		</ol>
 	</div>
 	
 	<div class="credit">
-		<center>Created by Dhruv Tilva</center>
+		<center><i class="fas fa-users"></i> Created by Dhruv Tilva <i class="fas fa-users"></i></center>
 	</div>
-	
+	<div class="box">
+		<a href="https://www.facebook.com/dhtuv.tilva.5"> <i class="fab fa-facebook-f"></i> facebook </a>
+		<a href="https://mobile.twitter.com/DhruvTilva73"> <i class="fab fa-twitter"></i> twitter </a>
+		<a href="https://www.instagram.com/mr.perfect7383/"> <i class="fab fa-instagram"></i> instagram </a>
+	    <a href="https://www.linkedin.com/in/dhruv-tilva-20500321"> <i class="fab fa-linkedin"></i>LinkedIn </a>
+	</div>
 	<script>
 		const input = document.querySelector('input');
 		const btn = document.querySelector('.addTask > button');
